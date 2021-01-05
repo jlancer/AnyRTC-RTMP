@@ -22,6 +22,10 @@
 #include "LIV_Export.h"
 #include "RTMPCommon.h"
 
+/**
+ * 计划支持RTSP播放，接口如何改动?  
+ * 建议: 另外启用一个RTSPGuester
+ */
 class RTMPGuesterEvent
 {
 public:
